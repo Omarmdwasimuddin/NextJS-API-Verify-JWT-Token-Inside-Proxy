@@ -1,4 +1,4 @@
-## Next.js API – Verify JWT Token Using Proxy
+## NextJS API – Verify JWT Token Using Proxy
 
 ### Verify JWT Token
 ![](https://imgur.com/Guf4Mgu.png)
