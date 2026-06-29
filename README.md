@@ -34,7 +34,7 @@ export async function proxy(request:NextRequest) {
         } catch (error) {
             console.error("User unauthenticated:", error)
             return NextResponse.json(
-                {status: "Fail", message: "Invalid user!"},
+                {status: "Fail", message: "Unauthorized user!"},
                 {status: 401}
             )
         }
